@@ -1,0 +1,21 @@
+
+h1 {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+img{
+    width: 75px;
+    height: 75px;
+}
+
+.container{
+    position: absolute;
+        top: 0;
+        right: 0;
+    text-align: right;
+}

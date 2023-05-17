@@ -1,0 +1,14 @@
+<h1>Carreras</h1>
+
+<form>
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" [(ngModel)] = "listar.nombre"   name="name" required >
+  
+  <label for="email">Duracion:</label>
+  <input type="email" id="email" [(ngModel)] = "listar.duracion"  name="email" required>
+
+  <label for="message">Ciclos:</label>
+  <textarea id="message" [(ngModel)] = "listar.ciclos" name="message" required></textarea>
+
+  <button type="submit" (click)="guardar()">Enviar</button>
+</form>

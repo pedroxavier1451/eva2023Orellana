@@ -1,0 +1,24 @@
+<h2>Lista Contactos</h2>
+
+<span *ngIf="listado.length == 0">No existen contactos</span>
+
+<ul>
+    <table>
+        <thead *ngIf="listado.length !== 0">
+        <tr>
+        <th>Nombre</th>
+        <th>Correo electrónico</th>
+        <th>Mensaje</th>
+        <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let contacto of listado">
+        <td>{{contacto.nombre}}</td>
+        <td>{{contacto.duracion}}</td>
+        <td>{{contacto.ciclos}}</td>
+        <td><a id = "eliminar" (click)="eliminar(contacto)">Eliminar</a></td>
+        </tr>
+    </tbody>
+    </table>
+</ul>
