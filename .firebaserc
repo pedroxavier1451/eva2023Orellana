@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "contactos62-dbb31": {
+      "hosting": {
+        "eva2023Orellana": [
+          "contactos62-dbb31"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "contactos62-dbb31"
+  }
+}
